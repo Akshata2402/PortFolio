@@ -9,7 +9,7 @@
   }
   .main h2{
     color: white;
-    font-family:Great Vibes;
+    font-family:serif;
   }
   
 body{
@@ -93,10 +93,11 @@ body{
     display: inline-block;
     border-radius: 5px;
     margin-left: 20px;
-    background-color: rgb(60, 179, 179);
+    /* background-color: rgb(60, 179, 179); */
    }
    .photo img{
     height: 400px;
+    width: 370px;
     border-radius: 5px;
    }
 
@@ -209,12 +210,11 @@ body{
     margin-right: 150px;
    }
    .card1{
-    border:1px solid rgb(131, 166, 206);
     height: 180px;
     width:24%;
     margin: 40px;
     border-radius:5px;
-    box-shadow: 1px 1px 1px 1px var(--box-color);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px var(--box-color);
     /* background-color:#21364b; */
     padding-right: 8px;
     padding-bottom: 10px;
@@ -268,7 +268,7 @@ body{
 
     border-radius: 5px;
     margin-top: 20px;
-    background-color: rgb(18, 16, 16);
+    background-color:transparent;
 
   }
   .contact form button{
@@ -289,4 +289,36 @@ body{
  }
  .contact button:hover{
    transform:scale(1.1);
+ }
+ #html{
+  border:1px solid orange;
+
+ }
+ #css{
+  border:1px solid rgb(51, 109, 175);
+
+ }
+ #js{
+  border:1px solid yellow;
+
+ }
+ #nodejs{
+  border:1px solid green;
+
+ }
+ #graph{
+  border:1px solid purple;
+
+ }
+ #next{
+  border:1px solid rgb(131, 166, 206);
+
+ }
+ #telwine{
+  border:1px solid rgb(90, 124, 164);
+
+ }
+ #react{
+  border:1px solid rgb(131, 166, 206);
+
  }
